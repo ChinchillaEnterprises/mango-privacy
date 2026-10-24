@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mango Privacy Policy</title><style>body{font:16px/1.5 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem}</style></head><body>
+<h1>Mango Privacy Policy</h1>
+<p>Last updated: 2026-10-24</p>
+<p>Chrome Web Store version 0.1.0.216. Operator: Chinchilla AI.</p>
+<p>Mango is a Chrome extension built by Chinchilla AI, with a companion application that runs on the same computer. It lets Chinchilla&#x27;s own software agents operate a Chrome browser on our own machines. It is for internal use by Chinchilla agents only and is distributed as Unlisted on the Chrome Web Store. It is not offered to the public.</p>
+<h2>What Mango handles</h2>
+<p>When an agent uses Mango on a page, Mango can read the page (text, structure, accessibility information, URL, tab and frame information), network request and response headers for the agent&#x27;s own tabs (cookie and authorization headers are redacted), and take screenshots. Fields that look like passwords, card numbers or one-time codes are masked in screenshots. If another browser extension blocks Mango&#x27;s debugger access, Mango cannot mask, so it refuses to capture any page that contains such a field. Masking is heuristic and is not a guarantee that every secret on a page is detected. Typed text and form values are not written to Mango&#x27;s action log.</p>
+<h2>Where it goes</h2>
+<ul>
+<li>The extension makes no web requests of its own. It talks only to the companion application on the same computer.</li>
+<li>The companion returns page content and screenshots to the Chinchilla agent that asked for them. That agent runs on the same machine or, if enabled for that machine, on our private network.</li>
+<li>Page content and screenshots are sent to our AI model providers (Anthropic and OpenAI) to do the task.</li>
+<li>What an agent or its AI model provider does with that content afterwards is governed by the provider&#x27;s own terms and is not otherwise established by this policy.</li>
+<li>Mango has no analytics or advertising code.</li>
+</ul>
+<h2>What we do not do</h2>
+<ul>
+<li>This data is never sold or shared for advertising.</li>
+<li>Chinchilla does not train on it; providers process it under their own terms.</li>
+</ul>
+<h2>How long we keep it</h2>
+<ul>
+<li>Browser session state (including a log of up to 1,000 recent actions with typed values excluded) is cleared when the browser quits or the extension reloads.</li>
+<li>Screenshot captures are deleted after 24 hours, on the next save (not on a timer).</li>
+<li>The companion&#x27;s diagnostic logs have no automatic retention limit and may persist until deleted by hand.</li>
+<li>Copies held by agents or their providers are not covered by these periods.</li>
+</ul>
+<h2>Contact</h2>
+<p>Chinchilla AI: administration@chinchilla-ai.com</p>
+</body></html>
