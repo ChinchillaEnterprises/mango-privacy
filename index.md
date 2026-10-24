@@ -2,11 +2,11 @@
 
 Last updated: 2026-10-24
 
-Chrome Web Store version 0.1.0.216. Operator: Chinchilla AI.
+Chrome Web Store version 0.1.0.217. Operator: Chinchilla AI.
 
 Mango is a Chrome extension built by Chinchilla AI, with a companion application that runs on the same computer. It lets Chinchilla's own software agents operate a Chrome browser on our own machines. It is for internal use by Chinchilla agents only and is distributed as Unlisted on the Chrome Web Store. It is not offered to the public.
 
-This policy describes only the Chrome Web Store build of the extension (version 0.1.0.216) and its companion application. It does not describe the separate self-hosted build of the extension.
+This policy describes only the Chrome Web Store build of the extension (version 0.1.0.217) and its companion application. It does not describe the separate self-hosted build of the extension.
 
 ## What Mango handles
 
