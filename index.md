@@ -36,8 +36,8 @@ The extension runs only code packaged with it. It does not download or execute r
 ## How long we keep it
 
 - Browser session state (including a log of up to 1,000 recent actions with typed values excluded) is cleared when the browser quits or the extension reloads.
-- Screenshot captures are deleted after 24 hours. The companion sweeps them daily, including for agents that have stopped capturing.
-- The companion's diagnostic logs are deleted after 30 days, swept daily.
+- When another screenshot file is saved for a tenant, the companion attempts to remove files in that tenant's capture directory that are more than 24 hours old. Files may remain longer if no further captures occur or cleanup fails. This does not delete recipient copies.
+- The companion's diagnostic logs have no automatic retention limit and may persist until deleted by hand.
 - Copies held by agents or their providers are not covered by these periods.
 - Removing the extension does not delete files the companion application has saved (such as screenshot files and diagnostic logs) or copies held by agents or their providers.
 
