@@ -26,7 +26,7 @@ When an agent uses Mango on a page, Mango can read the page (text, structure, ac
 ## How long we keep it
 
 - Browser session state (including a log of up to 1,000 recent actions with typed values excluded) is cleared when the browser quits or the extension reloads.
-- Screenshot captures are deleted after 24 hours, on the next save (not on a timer).
+- When another screenshot file is saved for a tenant, the companion attempts to remove files in that tenant's capture directory that are more than 24 hours old. Files may remain longer if no further captures occur or cleanup fails. This does not delete recipient copies.
 - The companion's diagnostic logs have no automatic retention limit and may persist until deleted by hand.
 - Copies held by agents or their providers are not covered by these periods.
 
